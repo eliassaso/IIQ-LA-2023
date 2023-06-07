@@ -11,8 +11,8 @@ namespace WebApplication4NetFrame.Controllers
     {
         public ActionResult Index()
         {
-            var studentIds = new string[10] { "Pedro", "Pablo", "Juan", "Antonio", "Carlos", "hugo", "Michael", "Mario", "Daniel", "Paquita" };
-            ViewBag.Message = studentIds[7];
+            var studentIds = new string[11] { "Pedro", "Pablo", "Juan", "Antonio", "Carlos", "hugo", "Michael", "Mario", "Daniel", "Paquita", "Rafa" };
+            ViewBag.Message = studentIds[8];
             Result test = new Result();
             test.value = studentIds[0];
             return View(test);
