@@ -10,6 +10,10 @@ namespace WebApplication4NetFrame.Models
     {
         private static string connectionString = "server=saacapps.com;UserID=saacapps_ucatolica;Database=saacapps_training;Password=Ucat0lica";
 
+        /// <summary>
+        /// example quiz commit
+        /// </summary>
+        /// <returns></returns>
         public static MySqlConnection GetConnection()
         {
             return new MySqlConnection(connectionString);
